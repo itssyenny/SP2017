@@ -113,8 +113,8 @@ int validity(char string[], int index) {//index = 0, check cgi name, index = 1, 
     //int flag = 1;
  
     if(index == 0){//check validity cgi name
-        if(strcmp(string,"file_reader") != 0 && strcmp(string,"info") != 0){
-            return 0;
+//         if(strcmp(string,"file_reader") != 0 && strcmp(string,"info") != 0){
+//             return 0;
         }
         else{
             for(int i  = 0; i < size; i++) {
